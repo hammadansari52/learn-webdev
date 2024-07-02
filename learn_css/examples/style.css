@@ -1,0 +1,64 @@
+.yt{
+    /* color:red; */
+    background-color: #CC0000;
+    color: white;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: opacity 0.15s;
+}
+
+.yt:hover{
+    opacity: 0.8;
+}
+
+.yt:active{
+    opacity: 0.5;
+}
+
+.join{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 2px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: background-color 0.2s,
+        color 0.2s;
+}
+
+.join:hover{
+    color: white;
+    background-color: blue;
+}
+
+.join:active{
+    opacity: 0.5;
+}
+
+.twitter{
+    color: white;
+    background-color: rgb(0, 153, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 30px;
+    font-weight:bold;
+    font-size: 15px;
+    transition: box-shadow 0.2s;
+}
+
+.twitter:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
