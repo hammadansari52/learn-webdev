@@ -4,6 +4,10 @@ p{
     margin-bottom: 0;
 }
 
+body{
+    margin: 0;
+}
+
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -53,4 +57,118 @@ p{
 
 .channel-name{
     margin-top: 10px;
+}
+
+.footer{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.left-section{
+    display: flex;
+    /* min-width: 150px; */
+    /* width: 150px; */
+    /* margin-right: 20px; */
+    /* background-color: lightblue; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    /* background-color: lightpink; */
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content:center;
+    min-width: 0;
+    align-items: center;
+}
+
+.right-section{
+    display: flex;
+    width: 200px;
+    /* background-color: lightblue; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box{
+    height: 36px;
+    max-width: 350px;
+    /* min-width: 0; */
+    border: 1px solid rgb(192, 192, 192);
+    width: 0;
+    flex: 1;
+    border-radius: 2px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.search-box:focus{
+    border: 1px solid blue;
+}
+
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.youtube-logo{
+    height: 20px;
+}
+
+.search-icon{
+    height: 24px;
+    /* margin-top: 4px; */
+}
+
+.search-button{
+    height: 40px;
+    width: 66px;
+    margin-left: -1px;
+    margin-right: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    background-color: rgb(240, 240, 240);
+    z-index: -1;
+    /* padding: 30px; */
+}
+
+.search-box::placeholder{
+    font-family: Roboto;
+    font-size: 15px;
+    
+}
+
+.voice-search-icon{
+    height: 24px;
+}
+
+.voice-search-button{
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(245, 245, 245);
+}
+.upload{
+    height: 24px;
+}
+
+.youtube-apps{
+    height: 24px;
+}
+
+.notifications{
+    height: 24px;
+}
+
+.my-channel{
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
