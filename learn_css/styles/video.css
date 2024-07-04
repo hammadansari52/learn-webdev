@@ -31,6 +31,7 @@
 .video-thumbnail{
     /* display: block; */
     width: 100%;
+    /* position: relative; */
 }
 
 .video-title{
@@ -47,4 +48,23 @@
 
 .channel-name{
     margin-top: 10px;
+}
+
+.thumbnail-row{
+    position: relative;
+}
+
+.video-duration{
+    z-index: 1;
+    position: absolute;
+    background-color: black;
+    font-family: Roboto;
+    font-weight: 500;
+    color: white;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 2px;
+    bottom: 10px;
+    right: 5px;
+    opacity: 0.9;
 }
